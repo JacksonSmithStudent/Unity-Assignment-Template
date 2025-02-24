@@ -1025,18 +1025,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f2a499f08b6e14f8d74bd56bf25292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  matTypes: 010000000300000004000000020000000200000002000000
+  matTypes: 01000000030000000400000005000000
   invImgs:
   - {fileID: 283501332}
   - {fileID: 724188298}
   - {fileID: 1309318930}
   - {fileID: 600948558}
-  - {fileID: 600948558}
   matImgs:
   - {fileID: 423268063}
   - {fileID: 711595657}
   - {fileID: 728726130}
-  - {fileID: 47200764}
   - {fileID: 47200764}
 --- !u!1 &963194225
 GameObject:
@@ -1492,8 +1490,8 @@ MonoBehaviour:
       colorBlindnessType: 0
       colorBlindnessStrength: 1
   m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
-  m_ShowToolkit: 0
-  m_ShowCustomSorter: 0
+  m_ShowToolkit: 1
+  m_ShowCustomSorter: 1
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
