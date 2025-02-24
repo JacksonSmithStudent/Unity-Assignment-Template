@@ -36,6 +36,7 @@ public class Block
         {BlockType.Stone, new Block(Tile.Stone)},
         {BlockType.Trunk, new Block(Tile.TreeCX, Tile.TreeSide, Tile.TreeCX)},
         {BlockType.Leaves, new Block(Tile.Leaves)},
+        
     };
 }
 

@@ -37,6 +37,7 @@ public class TilePos
         {Tile.TreeCX, new TilePos(0,3)},
         {Tile.Leaves, new TilePos(0,5)},
         
+        
     };
 }
 

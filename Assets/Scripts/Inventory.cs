@@ -72,6 +72,7 @@ public class Inventory : MonoBehaviour
             i = 2;
         else if(block == BlockType.Leaves)
             i = 3;
+       
 
         matCounts[i]++;
         if(matCounts[i] == 1)

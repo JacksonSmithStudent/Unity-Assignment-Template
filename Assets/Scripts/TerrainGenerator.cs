@@ -280,6 +280,7 @@ public class TerrainGenerator : MonoBehaviour
 }
 
 
+
 public struct ChunkPos
 {
     public int x, z;
