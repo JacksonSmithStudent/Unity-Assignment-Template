@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
  - Fixed unstable test.
 
+## [0.0.2-preview.1] - 2019-01-25
 ### Changed
  - Fixed a compilation issue caused by using the 'default' literal.
 
