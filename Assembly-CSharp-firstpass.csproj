@@ -19,7 +19,7 @@
     <RootNamespace></RootNamespace>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
@@ -54,7 +54,7 @@
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
     <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
-    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2023.1.7f1</UnityVersion>
   </PropertyGroup>
@@ -63,106 +63,29 @@
     <Analyzer Include="D:\2023.1.7f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\Zenject\SettingsIntaller.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\Sounds\SoundManager.cs" />
-    <Compile Include="Assets\VoxelGame\Utilities\Scripts\AutoDestroy.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\ChunkView\ChunkElement.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\Effects\EffectManager.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\Chunk.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\UI\CanvasFader.cs" />
-    <Compile Include="Assets\VoxelGame\PlayerController\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\VoxelData.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\VoxelUtils.cs" />
-    <Compile Include="Assets\VoxelGame\Input\Scripts\MobileInput\MobileInput.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\SaveLoad\SaveLoadChunkJSON.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\UI\UIInventoryButton.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\Zenject\GameInstaller.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\Voxels\Voxel.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\Sounds\RandomSound.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\VoxelSettingsSO.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\UI\UIFirstSelect.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\UI\UISelectHighlightControl.cs" />
-    <Compile Include="Assets\VoxelGame\Input\Scripts\PlayerInputs.cs" />
-    <Compile Include="Assets\VoxelGame\Input\Scripts\MobileInput\VirtualInput\UIVirtualJoystick.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\Structures\VoxelStructureSO.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\AutoSaveControl.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\Zenject\VoxelInstaller.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\Menues\GameMenu.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\Generators\FlatGenerator.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\SaveLoad\SaveLoadChunk.cs" />
-    <Compile Include="Assets\VoxelGame\Input\Scripts\BaseInput\BaseInput.cs" />
-    <Compile Include="Assets\VoxelGame\Utilities\Scripts\BatteryCounter.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\Structures\VoxelStructures.cs" />
-    <Compile Include="Assets\VoxelGame\Input\Scripts\Inputs.cs" />
-    <Compile Include="Assets\VoxelGame\Utilities\Scripts\Follow.cs" />
-    <Compile Include="Assets\VoxelGame\Utilities\Scripts\CullDistances.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\Voxels\VoxelsPresetSO.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\ChunkData.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\Zenject\MenuInstaller.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\IGenerator.cs" />
-    <Compile Include="Assets\VoxelGame\Input\Scripts\BaseInput\PlayerInputBinding.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\Generators\SinGenerator.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\ChunkView\ChunkElementMeshData.cs" />
-    <Compile Include="Assets\VoxelGame\Utilities\Scripts\ByteArrayCompressor.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\Menues\MainMenu.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\Structures\VoxelStructure.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\ChunkView\ChunkView.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\SaveLoad\SaveLoadEditorMenu.cs" />
-    <Compile Include="Assets\VoxelGame\Utilities\Scripts\FastNoiseLite.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\ChunkControl.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\GameManager.cs" />
-    <Compile Include="Assets\VoxelGame\Input\Scripts\InputValue.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\ChunkFade.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\ChunkSystem.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\IChunkControl.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\Menues\SettingsMenu.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\IChunkView.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\SavedChunkData.cs" />
-    <Compile Include="Assets\VoxelGame\PlayerController\Scripts\CharacterBoxController.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\Menues\InventoryMenu.cs" />
-    <Compile Include="Assets\VoxelGame\Utilities\Scripts\FpsCounter.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\VoxelRaycast.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\Voxels\Voxels.cs" />
-    <Compile Include="Assets\VoxelGame\PlayerController\Scripts\PlayerAction.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\ISaveLoadChunk.cs" />
-    <Compile Include="Assets\VoxelGame\Input\Scripts\MobileInput\VirtualInput\UIVirtualTouchZone.cs" />
-    <Compile Include="Assets\VoxelGame\Utilities\Scripts\OnEnableTrigger.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\ChunkStructure.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\GameRenderSettings.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\SaveLoad\SaveLoadChunkBinary.cs" />
-    <Compile Include="Assets\VoxelGame\Voxel\Scripts\Generators\DefaultGenerator.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\Menues\PauseMenu.cs" />
-    <Compile Include="Assets\VoxelGame\Core\Scripts\UI\UITooltip.cs" />
-    <Compile Include="Assets\VoxelGame\Input\Scripts\MobileInput\VirtualInput\UIVirtualButton.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\Plugins\Sirenix\Odin Serializer\Scripts\OdinBuildAutomation.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\Custom\Fonts\Roboto\LICENSE.txt" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\Custom\Graphy - Ultimate Stats Monitor\Changelog.txt" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Custom\Graphy - Ultimate Stats Monitor\Shaders\GraphMobile.shader" />
-    <None Include="Assets\Custom\Graphy - Ultimate Stats Monitor\Font\Northwest-Bold\ERIC-TIRADO-NORTHWEST-LICENSE.txt" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\Custom\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\Custom\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Custom\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Custom\Graphy - Ultimate Stats Monitor\Font\Roboto\LICENSE.txt" />
-    <None Include="Assets\Custom\Graphy - Ultimate Stats Monitor\Shaders\GraphStandard.shader" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\Custom\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\Custom\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Plugins\Sirenix\Odin Serializer\JIT\OdinSerializer.dll" />
+    <None Include="Assets\Plugins\Sirenix\Odin Serializer\EditorOnly\OdinSerializer.dll" />
+    <None Include="Assets\Plugins\Sirenix\Odin Serializer\License.txt" />
+    <None Include="Assets\Plugins\Sirenix\Odin Serializer\AOT\OdinSerializer.dll" />
+    <None Include="Assets\Plugins\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\Plugins\Sirenix\Odin Serializer\EditorOnly\OdinSerializer.xml" />
+    <None Include="Assets\Plugins\CW\READ ME.txt" />
+    <None Include="Assets\Plugins\CW\Third-Party Notices.txt" />
+    <None Include="Assets\Plugins\Demigiant\DOTween\DOTween.dll" />
+    <None Include="Assets\Plugins\Sirenix\Odin Serializer\AOT\link.xml" />
+    <None Include="Assets\Plugins\Sirenix\Odin Serializer\Version.txt" />
+    <None Include="Assets\Plugins\Demigiant\DOTween\readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1183,7 +1106,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj" />
     <ProjectReference Include="Tayx.Graphy.csproj" />
     <ProjectReference Include="LeanTransition.csproj" />
     <ProjectReference Include="LeanCommon.csproj" />
